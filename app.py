@@ -14,6 +14,6 @@ def hello():
 def hello():
     return app.send_static_file("index.html")
     
-@app.route("/")
-def hello():
-    return app.send_static_file("index.html")
+@app.route("/Saludo")
+def Saludo():
+    return "Hola mundo"
